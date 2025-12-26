@@ -44,11 +44,6 @@ cd voiceflow
 npm install
 ```
 
-### 2. Environment Configuration
-Create a `.env` file in the root directory:
-```env
-VITE_DEEPGRAM_KEY=your_deepgram_api_key_here
-```
 
 ### 3. Run Locally (Web)
 ```bash
@@ -74,6 +69,3 @@ npm run tauri dev
 ## ⚠️ Known Limitations
 *    **Browser Privacy**: You must allow microphone access every time on non-HTTPS localhost unless configured.
 *   **Deepgram Key**: The key is currently exposed in the frontend build. For production, this should be proxied through a backend to prevent key leakage.
-
----
-*Built with ❤️ by Antigravity*
